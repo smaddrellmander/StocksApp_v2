@@ -1,4 +1,4 @@
-angular.module('StocksApp', ['ionic', 'StocksApp.controllers'])
+angular.module('starter', ['ionic', 'starter.controllers'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
